@@ -1,0 +1,125 @@
+/* makes these changes to the whole script */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* changes the background color of the body */
+body {
+    background-color: #d9dcd6;
+}
+/* list off the padding border size, what font should be used, the color of the header background, and the coloring of the words */
+header {
+    padding: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* display tells how the words should be set up from one another, font size, and the color of the company name */
+.company-name {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+/* shows the top padding for the links, the spacing on the right side, where it should sit, the font that should be used and the font size */
+.links {
+    padding-top: 15px;
+    margin-right: -600px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* shows what is done to the list like the format of the list and spacing on the left side */
+li{
+    display: inline-block;
+    margin-left: 25px;
+}
+/* color of the text and gives the line no underline */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* font size for the paragraph */
+p {
+    font-size: 16px;
+}
+/* shows the dimensions of the class and the background size and position */
+.digital-market-meeting{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* this tells it to move to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* this tells it to move to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* this tells the section that it should have a certain width, how it should format, and gives it spacing on the left */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* this tells the benefits section to have spacing on the right, padding around and more padding below,
+ how the images float, where the img floats,the width and height, what font to use, background color and font color  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    padding-bottom: 155px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color:  #ffffff ;
+}
+/* this shows a spacing below the titles and that the text should be centered */
+.benefit-lead, .benefit-brand, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* this explains how the imgs should be stacked the spacing around them and their max width */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This explains the titles margin on the bottom, the spacing around it, the height of it, the font that is used, the background color and text color */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* this gives the images a max height of 200px */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+/* this puts a margin under the text and a font size */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* this is the spacing for the footer, how it floats, the font used, and how to position the text */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* this is the font size for the message in the footer */
+footer h2 {
+    font-size: 20px;
+}
+
+/* Dev Note: I messed up the file and started working on it in my other folder first so some changes do not appear on this document */
